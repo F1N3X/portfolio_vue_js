@@ -119,26 +119,30 @@ main {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 100%;
       align-items: center;
+      justify-content: center;
 
       .picture{
         background-color: #383852;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 80%;
+        width: 65%;
+        max-width: 225px;
         position: relative;
+        margin-left: auto;
+        margin-right: auto;
 
         img{          
           background-color: #383852;
-          height: 100%;
+          width: 100%;
         }
 
         &::after {
           content: '';
           position: absolute;
-          left: 25%;
+          left: 0%;
           bottom: 0px; /* Ajustement de la position */
-          width: 50%;
+          width: 100%;
           height: 5px;
           background-color: #B94E56;
           border-radius: 5px;
