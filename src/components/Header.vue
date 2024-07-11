@@ -44,6 +44,10 @@ header {
             transition: all 0.1s linear;
             background-color: #1F213B;
 
+            a {
+                background-color: #1F213B;
+            }
+
             :visited {
                 color: white;
                 background-color: #1F213B;
