@@ -176,8 +176,43 @@ main {
       justify-content: center;
       align-items: center;
       height: 45%;
-
       bottom: 10%;
+
+      h2{
+        z-index: 1;
+      }
+
+      a{
+        transform-origin: bottom center;
+        transition: transform 0.5s linear;
+        transform: rotate(0deg);
+
+        &:hover{
+        animation: rotation 0.5s linear;
+        }
+      }
+
+      @keyframes rotation {
+        0%{
+          transform: rotate(0deg);
+        }
+
+        25%{
+          transform: rotate(20deg);
+        }
+
+        50%{
+          transform: rotate(0deg);
+        }
+
+        75%{
+          transform: rotate(-20deg);
+        }
+
+        100%{
+          transform: rotate(0deg);
+        }
+      }
     }
 
 
