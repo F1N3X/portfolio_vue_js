@@ -110,29 +110,26 @@ main {
     padding-bottom: 2.5%;
 
     .pitch{
-
       height: 65%;
       border: 3px solid #B94E56;
       border-radius: 50px;
-      padding: 5%;
+      padding: 15px;
       background-color: #383852;
       display: grid;
       grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100%;
+      align-items: center;
 
       .picture{
-
         background-color: #383852;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 50%;
+        height: 80%;
         position: relative;
 
-        img{
-
-          
+        img{          
           background-color: #383852;
-
           height: 100%;
         }
 
@@ -146,7 +143,6 @@ main {
           background-color: #B94E56;
           border-radius: 5px;
         }
-
       }
 
       .informations{
